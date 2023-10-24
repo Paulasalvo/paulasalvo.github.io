@@ -33,10 +33,9 @@
         <nav>
             <h1>Paula Arroyo</h1>
             <ul class="navegacion">
-              <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
-              <li><a href="#habilidaes" class="nav-link">Habilidades</a></li>
-              <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-              <li><a href="#contacto" class="nav-link">Contacto</a></li>
+              <li><a href="#about" class="nav-link">Acerca de Mí</a></li>
+              <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+              <li><a href="#projects" class="nav-link">Proyectos</a></li>
             </ul>
             <button class="menu-hamburguesa" id="menu-hamburguesa">
               <ion-icon class="barras" name="menu-outline"></ion-icon>
@@ -131,58 +130,61 @@
         </section>
 
         <!-- Sección Proyectos -->
-        <!-- Sección Proyectos -->
-      <section class="proyectos" id="proyectos">
-        <h2 class="titulo-de-proyecto">Algunos de mis proyectos recientes</h2>
-        <div class="contenedor-de-proyectos">
-          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
-            <img
-              src="assets/images/CryptoApp.png"
-              alt="Crypto-app"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="titulo-de-proyecto">Crypto App</h3>
-            <p class="detalles-de-proyecto">
-              Aplicación Android con la visualización de un listado de criptomonedas y la información  
-              detallada de cada una. La app de criptomonedas se basa en la arquitectura MVVM y utiliza el patrón Repository. Se comunica con una base de datos como fuente principal de datos y emplea Retrofit para interactuar con la API (docs.coincap.io). App desarrollada en Kotlin.
-            </p>
-            <a href="https://github.com/Paulasalvo/CryptoList.git" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
-          </div>
-          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
-            <img
-              src="assets/images/fonoApp.png"
-              alt="fonoApp"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="titulo-de-proyecto">EHA! Entrenamiento de Habilidades Auditivas</h3>
-            <p class= "detalles-de-proyecto">
-              La aplicación EHA para Android, enfocada en mejorar habilidades auditivas, se desarrolló con Java y sigue el patrón MVP. Utiliza Firebase para autenticación y almacenamiento de datos, junto con MediaPlayer y Glide. La interfaz sigue el diseño Material. El proyecto se gestiona con SCRUM y está en curso en su versión 1.0.1.
-            </p>
-            <a href="https://play.google.com/store/apps/details?id=com.fonoaudio.appfono" target="_blank" class="project-link">Echale un vistazo!</a>
-          </div>
-          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
-            <img
-              src="assets/images/Products.png"
-              alt="Products"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="titulo-de-proyecto">Explorador de Productos</h3>
-            <p class="detalles-de-proyecto">
-              La app de explorador de productos sigue una arquitectura MVVM y hace uso del patrón Repository. 
-              Se conecta a una API para obtener categorías de productos, listar productos por categoría y 
-              mostrar detalles del producto. La app se desarrolla en Kotlin y permite a los usuarios 
-              ingresar evaluaciones y comentarios sobre los productos, que se almacenan en una base de datos 
-              Room.
-            </p>
-            <a href="https://github.com/Paulasalvo/ProductExplorer.git" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
-          </div>
-        </div>
-      </section>
-
       
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Mis Proyectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/CryptoApp.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Crypto App</h3>
+          <p class="project-details">
+            Aplicación Android con la visualización de un listado de criptomonedas y la información 
+            detallada de cada una. La app de criptomonedas se basa en la arquitectura MVVM y utiliza 
+            el patrón Repository. Se comunica con una base de datos como fuente principal de datos y 
+            emplea Retrofit para interactuar con la API (docs.coincap.io). App desarrollada en Kotlin.
+          </p>
+          <a href="https://github.com/Paulasalvo/CryptoList.git" target="_blank" class="project-link">Échale un vistazo</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/fonoApp.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">EHA! Entrenamiento de Habilidades Auditivas</h3>
+          <p class="project-details">
+            La aplicación EHA para Android, enfocada en mejorar habilidades auditivas, 
+            se desarrolló con Java y sigue el patrón MVP. Utiliza Firebase para autenticación y 
+            almacenamiento de datos, junto con MediaPlayer y Glide. La interfaz sigue el diseño Material. 
+            El proyecto se gestiona con SCRUM y está en curso en su versión 1.0.1.
+          </p>
+          <a href="https://play.google.com/store/apps/details?id=com.fonoaudio.appfono" target="_blank" class="project-link">Échale un vistazo</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Products.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Explorador de Productos</h3>
+          <p class="project-details">
+            La app de explorador de productos sigue una arquitectura MVVM y hace uso del patrón Repository. 
+            Se conecta a una API para obtener categorías de productos, listar productos por categoría y 
+            mostrar detalles del producto. La app se desarrolla en Kotlin y permite a los usuarios 
+            ingresar evaluaciones y comentarios sobre los productos, que se almacenan en una base de datos 
+            Room.
+          </p>
+          <a href="https://github.com/Paulasalvo/ProductExplorer.git" target="_blank" class="project-link">Échale un vistazo</a>
+        </div>
+      </div>
+    </section>      
         <!-- Sección Contacto-->
       
              
