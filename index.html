@@ -63,17 +63,159 @@
       </section>
         <!-- Sobre Mí -->
 
+        <section class="mas-sobre">
+          <h2>Más sobre mí</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+            autem deleniti cupiditate molestias quis unde quae totam porro dicta
+            iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+            nostrum dolor minus, libero delectus praesentium perferendis
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+            consequuntur labore? Ea totam voluptas amet!
+          </p>
+        </section>
+
         <!-- Sección Habilidades -->
+        <section class="habilidades" id="habilidades">
+          <h2 class="encabezado-habilidad">Mis mejores habilidades</h2>
+    
+          <div class="contenedor-habilidades">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-kotlin-240.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-java-240.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/sql3.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+    
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-git-240.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-android-studio-256.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-github-256.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+          </div>
+        </section>
 
         <!-- Sección Proyectos -->
+        <!-- Sección Proyectos -->
+      <section class="proyectos" id="proyectos">
+        <h2 class="titulo-de-proyecto">Algunos de mis proyectos recientes</h2>
+        <div class="contenedor-de-proyectos">
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+            <img
+              src="assets/images/CryptoApp.png"
+              alt="Crypto-app"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">Crypto App</h3>
+            <p class="detalles-de-proyecto">
+              Aplicación Android con la visualización de un listado de criptomonedas y la información  
+              detallada de cada una. La app de criptomonedas se basa en la arquitectura MVVM y utiliza el patrón Repository. Se comunica con una base de datos como fuente principal de datos y emplea Retrofit para interactuar con la API (docs.coincap.io). App desarrollada en Kotlin.
+            </p>
+            <a href="https://github.com/Paulasalvo/CryptoList.git" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+            <img
+              src="assets/images/fonoApp.png"
+              alt="fonoApp"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">EHA! Entrenamiento de Habilidades Auditivas</h3>
+            <p class= "detalles-de-proyecto">
+              La aplicación EHA para Android, enfocada en mejorar habilidades auditivas, se desarrolló con Java y sigue el patrón MVP. Utiliza Firebase para autenticación y almacenamiento de datos, junto con MediaPlayer y Glide. La interfaz sigue el diseño Material. El proyecto se gestiona con SCRUM y está en curso en su versión 1.0.1.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.fonoaudio.appfono" target="_blank" class="project-link">Echale un vistazo!</a>
+          </div>
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+            <img
+              src="assets/images/Products.png"
+              alt="Products"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">Explorador de Productos</h3>
+            <p class="detalles-de-proyecto">
+              La app de explorador de productos sigue una arquitectura MVVM y hace uso del patrón Repository. 
+              Se conecta a una API para obtener categorías de productos, listar productos por categoría y 
+              mostrar detalles del producto. La app se desarrolla en Kotlin y permite a los usuarios 
+              ingresar evaluaciones y comentarios sobre los productos, que se almacenan en una base de datos 
+              Room.
+            </p>
+            <a href="https://github.com/Paulasalvo/ProductExplorer.git" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+        </div>
+      </section>
 
+      
         <!-- Sección Contacto-->
-
+      
+             
         <!-- Sección de redes sociales - Fijado a la derecha -->
+        <div class="sociales">
+          
+          <a href="#" target="_blank"
+            ><img
+              src="assets/icons/icons8-linkedin-circled.gif"
+              alt="Linkedin"
+              loading="lazy"
+              class="socicon"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="assets/icons/icons8-github.gif" 
+            alt="Github" 
+            loading="lazy"
+            class="socicon"
+          /></a>
+        </div>
 
         <!-- Vuelve al comienzo  -->
 
         <!-- Sección Footer  -->
+        <footer>
+          <p class="copy">&copy; Copyright 2023</p>
+          <p class="copy">
+            Built with &#x2661; by
+            <a href="" target="_blank"
+              >Paula Arroyo</a
+            >
+          </p>
+        </footer>
 
         <!-- Website scripts -->
         <script src="assets/js/app.js"></script>
@@ -87,4 +229,6 @@
             src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
         ></script>
     </body>
+
+    
 </html>
