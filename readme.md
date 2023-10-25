@@ -10,7 +10,13 @@
 
 ###
 
-<p align="left">✨ En octubre del año 2023 finalicé el bootcamp de Desarrollo de Aplicaciones Móviles Android Traine, en la Academia Desafío Latam.  <br>📚 En la actualidad me especializo en el desarrollo de aplicaciones Android<br>🎯 Metas: Consolidarme como una desarrolladora Android <br>🎲 Intereses: Senderismo, teatro </p>
+<p align="left">
+  ✨ En octubre del año 2023 finalicé el bootcamp de Desarrollo de Aplicaciones Móviles Android Traine, en la Academia Desafío Latam.  
+  <br>📚 En la actualidad me especializo en el desarrollo de aplicaciones Android
+  <br>🎯 Metas: Consolidarme como una desarrolladora Android
+  <br>🎲 Intereses: Senderismo, teatro
+  <br>📂 Para más información revisa <a href="https://paulasalvo.github.io/">mi portafolio</a>
+</p>
 
 ###
 
@@ -30,3 +36,4 @@
 </div>
 
 ###
+
