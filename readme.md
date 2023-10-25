@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Mi nombre es Paula Arroyo y soy desarrolladora de Android y Fonoaudióloga</p>
+<p align="left">Mi nombre es Paula Arroyo y soy una desarrolladora Android que se encuentra en la busqueda de nuevos desafíos en el mundo de la tecnología.</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ En la busqueda de nuevos desafíos en el mundo de la tecnología.  <br>📚 En la actualidad me especializo en el desarrollo de aplicaciones Android<br>🎯 Metas: Consolidarme como una desarrolladora Android <br>🎲 Intereses: Senderismo, teatro </p>
+<p align="left">✨ En octubre del año 2023 finalicé el bootcamp de Desarrollo de Aplicaciones Móviles Android Traine, en la Academia Desafío Latam.  <br>📚 En la actualidad me especializo en el desarrollo de aplicaciones Android<br>🎯 Metas: Consolidarme como una desarrolladora Android <br>🎲 Intereses: Senderismo, teatro </p>
 
 ###
 
